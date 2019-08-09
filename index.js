@@ -25,5 +25,7 @@ function incrementVariable() {
 
 function iLoveTheBeatles(number) {
   var new_array = []
-  do 
+  do {
+    new_array.push('I love the Beatles!')
+  }
 }
