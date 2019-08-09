@@ -25,9 +25,11 @@ function incrementVariable() {
 
 function iLoveTheBeatles(number) {
   var new_array = []
+  var y = number
   do {
     new_array.push('I love the Beatles!');
   }
   while (incrementVariable() < 15)
+  y += 1
   return new_array
 }
